@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="Author" content="John Doe" />
+    <meta name="Category" content="stage, programmation informatique" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <meta
+      name="description"
+      content="Formulaire contact."
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./images/favicon.png" />
+  </head>
+
+  <body>
+    <header>
+      <section class="container">
+        <div class="row">
+          <div class="column">
+            <img src="./images/logo-axa.svg" class="logoIcon" alt="logo AXA" />
+          </div>
+          <div class="column">
+            <nav class="menu">
+              <div class="pages">
+                <a href="./index.html">A propos de moi</a>
+                <a href="./contact.html">Contact</a>
+              </div>   
+            </nav>
+          </div>
+        </div>  
+      </section>
+    </header>
+
+    <main>
+      <article class="container">
+        <section class="formulaire-contact">
+            <h1>Formulaire de contact</h1>
+            <form action="./message-envoye.html">
+              <label for="nomPrenom">Nom, prénom</label>
+              <input type="text" id="nomPrenom" name="nomPrenom" placeholder="Votre nom et prénom">
+          
+              <label for="emailAddress">Email</label>
+              <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+          
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Votre message" style="height:200px"></textarea>
+              
+              <input type="submit" value="Envoyer">
+            </form>
+        </section>
+      </article>
+    </main>
+    <footer>
+      &copy; 2022 - John Doe. Tous droits réservés.
+    </footer>
+  </body>
+</html>
