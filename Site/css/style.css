@@ -4,7 +4,7 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
-p {
+p ul {
   font-size: 1.2rem;
 }
 
@@ -78,6 +78,10 @@ nav .pages a :hover
   margin-top: 50px;
 }
 
+.presentation-txt {
+  min-width: 400px;
+}
+
 .contact-btn {
   width: 120px;
   background-color: #1255a2;
@@ -93,6 +97,10 @@ nav .pages a :hover
 .experiences h2 {
   padding: 50px 0px 0px 0px;
   text-align:center;
+}
+
+.experience {
+  width : 400px;
 }
 
 /* Formulaire Contact */
