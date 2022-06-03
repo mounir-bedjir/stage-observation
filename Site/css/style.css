@@ -95,6 +95,10 @@ nav .pages a :hover
   text-align:center;
 }
 
+.experience {
+  width : 400px;
+}
+
 /* Formulaire Contact */
 
 input[type=text], textarea, input[type=email] {
