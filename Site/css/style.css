@@ -4,7 +4,7 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
-p {
+p ul {
   font-size: 1.2rem;
 }
 
@@ -76,6 +76,10 @@ nav .pages a :hover
 
 .presentation {
   margin-top: 50px;
+}
+
+.presentation-txt {
+  min-width: 400px;
 }
 
 .contact-btn {
