@@ -17,16 +17,9 @@ p ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  flex-grow: 1;
   width: 100%;
 }
-
-.column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-}
-
 
 /* Style Header */
 
@@ -40,29 +33,29 @@ header {
   margin-right: 0.6rem;
 }
 
+#logo {
+  width:10%;
+}
+
+#top-naviguation {
+  width:90%;
+}
+
 nav 
 {
-    width: 100%;
+  float: right;
+  
 }
  
-nav .pages 
+nav a
 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    column-gap: 20px;
-}
-
-nav .pages a
-{
-    width: 150px;
     color: royalblue;
-    font-weight: 400;
+    font-weight: 500;
     text-decoration: none;
+    margin-left: 30px;
 }
 
-nav .pages a :hover
+nav a:hover
 {
   text-decoration: underline;
 }
