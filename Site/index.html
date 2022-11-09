@@ -24,28 +24,23 @@
 
   <body>
     <header>
-      <section class="container">
-        <div class="row">
-          <div id="logo">
-            <img src="./images/logo-axa.svg" class="logoIcon" alt="logo AXA" />
-          </div>
-          <div id="top-naviguation">
-            <nav>
+      <section class="site-header">
+          <a id="site-logo" href="#">
+            <img src="./images/logo-axa.svg" alt="logo AXA" />
+          </a>
+            <nav class="site-nav">
                 <a href="./index.html">A propos de moi</a>
                 <a href="./contact.html">Contact</a>  
-            </nav>
-          </div>
-        </div>  
+            </nav> 
       </section>
     </header>
-
     <main>
-      <article class="container">
+      <section class="site-main">
         <section class="banniere">
-            <h1>John, DOE</h1>
+          <img src="./images/banniere.png" />
+          <h1>John, DOE</h1>
         </section>
         <section class="presentation">
-          <div class="row">
             <div class="presentation-txt">
               <p>
                 Bonjour, je suis étudant en clasee de ... au collége de .... (mettre le lien vers le site de l'établissement).
@@ -57,12 +52,11 @@
               </ul>
               <a target="_blank" class="contact-btn" href="./contact.html">Contactez moi</a>
             </div> 
-            <img src="./images/presentation.png" alt="image de présentation" />
-          </div>  
+            <img src="./images/presentation.png" alt="image de présentation" />  
         </section>
         <section class="experiences">
           <h2>Mes expériences</h2>
-          <div class="row">
+          <div class="experiences-list">
               <div class="experience">
                 <p>Stage Software Engineer au sein de la DSI AXA France.</p>
               </div>
@@ -74,7 +68,7 @@
               </div>
           </div>
         </section>
-      </article>
+      </section>
     </main>
 
     <footer>
